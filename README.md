@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Serwer Metin2 - Nazwa Serwera</title>
+    <title>Metin2SG.pl</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <div class="logo">
-            <img src="logo.png" alt="Logo Serwera">
+            <img src="popup-logo@2x.png" alt="Logo Serwera">
         </div>
         <nav>
             <ul>
