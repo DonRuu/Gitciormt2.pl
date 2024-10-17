@@ -3,68 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Oficjalna strona serwera Metin2">
+    <title>Serwer Metin2 - [Twoja nazwa serwera]</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Nagłówek -->
     <header>
         <div class="logo">
-            <img src="popup-logo@2x.png" alt="Logo Serwera">
+            <h1>[Twoja nazwa serwera]</h1>
         </div>
         <nav>
             <ul>
-                <li><a href="#home">Strona Główna</a> <li><a href="#home">Strona Główna</a>
+                <li><a href="#home">Strona Główna</a></li>
                 <li><a href="#about">O Serwerze</a></li>
-                <li><a href="#forum">Forum</a></li>
-                <li><a href="#rules">Zasady</a></li>
+                <li><a href="#download">Pobierz</a></li>
+                <li><a href="#ranking">Ranking</a></li>
+                <li><a href="#register">Rejestracja</a></li>
                 <li><a href="#contact">Kontakt</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <section id="home" class="banner">
-            <img src="banner.jpg" alt="Banner Serwera">
-            <h1>Witaj na naszym serwerze Metin2!</h1>
-            <p>Dołącz do niesamowitych przygód!</p>
-            <a href="#register" class="btn">Dołącz do nas!</a>
-        </section>
+    <!-- Strona główna -->
+    <section id="home">
+        <h2>Witaj na serwerze [Twoja nazwa serwera]</h2>
+        <p>Dołącz do nas i przeżyj niesamowite przygody w świecie Metin2!</p>
+        <a href="#download" class="button">Pobierz grę</a>
+    </section>
 
-        <section id="about">
-            <h2>O Serwerze</h2>
-            <p>Nasza przygoda z Metin2 zaczyna się tutaj! Przyjazna społeczność, unikalne eventy i regularne aktualizacje.</p>
-        </section>
+    <!-- O serwerze -->
+    <section id="about">
+        <h2>O serwerze</h2>
+        <p>[Tutaj umieść opis serwera, jego cechy, unikalne systemy, stawki expa, dropów, eventy itp.]</p>
+    </section>
 
-        <section id="features">
-            <h2>Zalety Serwera</h2>
-            <ul>
-                <li>Stabilny i szybki serwer</li>
-                <li>Regularne eventy i nagrody</li>
-                <li>Przyjazna atmosfera</li>
-            </ul>
-        </section>
+    <!-- Pobierz klienta -->
+    <section id="download">
+        <h2>Pobierz grę</h2>
+        <p>Kliknij poniżej, aby pobrać klienta gry i zacząć swoją przygodę!</p>
+        <a href="[link do klienta]" class="button">Pobierz klienta gry</a>
+    </section>
 
-        <section id="news">
-            <h2>Aktualności</h2>
-            <p>Śledź nasze najnowsze wydarzenia i aktualizacje!</p>
-        </section>
+    <!-- Ranking graczy -->
+    <section id="ranking">
+        <h2>Ranking Graczy</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Miejsce</th>
+                    <th>Nazwa Gracza</th>
+                    <th>Poziom</th>
+                    <th>Punkty</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Tutaj wstaw dane graczy -->
+                <tr>
+                    <td>1</td>
+                    <td>Gracz1</td>
+                    <td>99</td>
+                    <td>5000</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Gracz2</td>
+                    <td>98</td>
+                    <td>4800</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
 
-        <section id="contact">
-            <h2>Kontakt</h2>
-            <form action="submit.php" method="post">
-                <input type="text" name="name" placeholder="Twoje imię" required>
-                <input type="email" name="email" placeholder="Twój e-mail" required>
-                <textarea name="message" placeholder="Twoja wiadomość" required></textarea>
-                <button type="submit">Wyślij</button>
-            </form>
-        </section>
-    </main>
+    <!-- Rejestracja -->
+    <section id="register">
+        <h2>Rejestracja</h2>
+        <form action="[url do skryptu rejestracji]" method="post">
+            <label for="username">Nazwa użytkownika:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="password">Hasło:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <input type="submit" value="Zarejestruj się">
+        </form>
+    </section>
 
+    <!-- Kontakt -->
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <p>Masz pytania? Napisz do nas:</p>
+        <form action="[url do skryptu kontaktowego]" method="post">
+            <label for="name">Imię:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="message">Wiadomość:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <input type="submit" value="Wyślij">
+        </form>
+    </section>
+
+    <!-- Stopka -->
     <footer>
-        <p>&copy; 2024 Serwer Metin2 - Wszystkie prawa zastrzeżone</p>
-        <div class="socials">
-            <a href="#">Facebook</a>
-            <a href="#">Twitter</a>
-        </div>
+        <p>&copy; 2024 [Twoja nazwa serwera]. Wszelkie prawa zastrzeżone.</p>
     </footer>
 </body>
 </html>
