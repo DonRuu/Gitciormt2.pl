@@ -14,35 +14,28 @@
             <h1>[Twoja nazwa serwera]</h1>
         </div>
         <nav>
-            <ul>
-                <li><a href="#home">Strona Główna</a></li>
-                <li><a href="#about">O Serwerze</a></li>
-                <li><a href="#download">Pobierz</a></li>
-                <li><a href="#ranking">Ranking</a></li>
+            <ul class="menu">
+                <li><a href="#home">Główna Strona</a></li>
+                <li><a href="#about">Opis Serwera</a></li>
+                <li><a href="#ranking">Ranking Graczy</a></li>
                 <li><a href="#register">Rejestracja</a></li>
+                <li><a href="#download">Pobierz Klienta Gry</a></li>
                 <li><a href="#contact">Kontakt</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Strona główna -->
+    <!-- Główna strona -->
     <section id="home">
         <h2>Witaj na serwerze [Twoja nazwa serwera]</h2>
         <p>Dołącz do nas i przeżyj niesamowite przygody w świecie Metin2!</p>
         <a href="#download" class="button">Pobierz grę</a>
     </section>
 
-    <!-- O serwerze -->
+    <!-- Opis serwera -->
     <section id="about">
-        <h2>O serwerze</h2>
+        <h2>Opis Serwera</h2>
         <p>[Tutaj umieść opis serwera, jego cechy, unikalne systemy, stawki expa, dropów, eventy itp.]</p>
-    </section>
-
-    <!-- Pobierz klienta -->
-    <section id="download">
-        <h2>Pobierz grę</h2>
-        <p>Kliknij poniżej, aby pobrać klienta gry i zacząć swoją przygodę!</p>
-        <a href="[link do klienta]" class="button">Pobierz klienta gry</a>
     </section>
 
     <!-- Ranking graczy -->
@@ -58,7 +51,6 @@
                 </tr>
             </thead>
             <tbody>
-                <!-- Tutaj wstaw dane graczy -->
                 <tr>
                     <td>1</td>
                     <td>Gracz1</td>
@@ -90,6 +82,13 @@
             
             <input type="submit" value="Zarejestruj się">
         </form>
+    </section>
+
+    <!-- Pobierz klienta gry -->
+    <section id="download">
+        <h2>Pobierz Klienta Gry</h2>
+        <p>Kliknij poniżej, aby pobrać klienta gry i zacząć swoją przygodę!</p>
+        <a href="[link do klienta]" class="button">Pobierz klienta gry</a>
     </section>
 
     <!-- Kontakt -->
