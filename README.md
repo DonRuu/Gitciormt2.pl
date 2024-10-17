@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Oficjalna strona serwera Metin2">
-    <title>Serwer Metin2 - [Twoja nazwa serwera]</title>
+    <title>Serwer Metin2 - Galeria</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Nagłówek -->
     <header>
-        <div class="5b69e5c4cc312_tlaladowania1.png.e0253abde0a66e70185941a4617ba303.png
-            ">
+        <div class="logo">
             <h1>[Twoja nazwa serwera]</h1>
         </div>
         <nav>
@@ -21,90 +20,34 @@
                 <li><a href="#ranking">Ranking Graczy</a></li>
                 <li><a href="#register">Rejestracja</a></li>
                 <li><a href="#download">Pobierz Klienta Gry</a></li>
+                <li><a href="#gallery">Galeria</a></li>
                 <li><a href="#contact">Kontakt</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Główna strona -->
-    <section id="home">
-        <h2>Witaj na serwerze [Twoja nazwa serwera]</h2>
-        <p>Dołącz do nas i przeżyj niesamowite przygody w świecie Metin2!</p>
-        <a href="#download" class="button">Pobierz grę</a>
-    </section>
-
-    <!-- Opis serwera -->
-    <section id="about">
-        <h2>Opis Serwera</h2>
-        <p>[Tutaj umieść opis serwera, jego cechy, unikalne systemy, stawki expa, dropów, eventy itp.]</p>
-    </section>
-
-    <!-- Ranking graczy -->
-    <section id="ranking">
-        <h2>Ranking Graczy</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Miejsce</th>
-                    <th>Nazwa Gracza</th>
-                    <th>Poziom</th>
-                    <th>Punkty</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>Gracz1</td>
-                    <td>99</td>
-                    <td>5000</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Gracz2</td>
-                    <td>98</td>
-                    <td>4800</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
-
-    <!-- Rejestracja -->
-    <section id="register">
-        <h2>Rejestracja</h2>
-        <form action="[url do skryptu rejestracji]" method="post">
-            <label for="username">Nazwa użytkownika:</label>
-            <input type="text" id="username" name="username" required>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="password">Hasło:</label>
-            <input type="password" id="password" name="password" required>
-            
-            <input type="submit" value="Zarejestruj się">
-        </form>
-    </section>
-
-    <!-- Pobierz klienta gry -->
-    <section id="download">
-        <h2>Pobierz Klienta Gry</h2>
-        <p>Kliknij poniżej, aby pobrać klienta gry i zacząć swoją przygodę!</p>
-        <a href="[link do klienta]" class="button">Pobierz klienta gry</a>
-    </section>
-
-    <!-- Kontakt -->
-    <section id="contact">
-        <h2>Kontakt</h2>
-        <p>Masz pytania? Napisz do nas:</p>
-        <form action="[url do skryptu kontaktowego]" method="post">
-            <label for="name">Imię:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="message">Wiadomość:</label>
-            <textarea id="message" name="message" required></textarea>
-            
-            <input type="submit" value="Wyślij">
-        </form>
+    <!-- Galeria -->
+    <section id="gallery">
+        <h2>Galeria Grafik</h2>
+        <div class="gallery-container">
+            <!-- Wklej swoje obrazy w poniższe elementy -->
+            <div class="gallery-item">
+                <img src="grafiki/grafika1.jpg" alt="Grafika 1">
+            </div>
+            <div class="gallery-item">
+                <img src="grafiki/grafika2.jpg" alt="Grafika 2">
+            </div>
+            <div class="gallery-item">
+                <img src="grafiki/grafika3.jpg" alt="Grafika 3">
+            </div>
+            <div class="gallery-item">
+                <img src="grafiki/grafika4.jpg" alt="Grafika 4">
+            </div>
+            <div class="gallery-item">
+                <img src="grafiki/grafika5.jpg" alt="Grafika 5">
+            </div>
+            <!-- Dodaj więcej obrazów tutaj -->
+        </div>
     </section>
 
     <!-- Stopka -->
