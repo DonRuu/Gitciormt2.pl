@@ -10,7 +10,8 @@
 <body>
     <!-- Nagłówek -->
     <header>
-        <div class="logo">
+        <div class="5b69e5c4cc312_tlaladowania1.png.e0253abde0a66e70185941a4617ba303.png
+            ">
             <h1>[Twoja nazwa serwera]</h1>
         </div>
         <nav>
