@@ -12,7 +12,7 @@
         </div>
         <nav>
             <ul>
-                <li><a href="#home">Strona Główna</a></li> <li><a href="#about">O Serwerze</a></li> <li><a href="#forum">Forum</a></li> <li><a href="#rules">Zasady</a></li> <li><a href="#contact">Kontakt</a></li>
+                <li><a href="#home">Strona Główna</a> <li><a href="#home">Strona Główna</a>
                 <li><a href="#about">O Serwerze</a></li>
                 <li><a href="#forum">Forum</a></li>
                 <li><a href="#rules">Zasady</a></li>
