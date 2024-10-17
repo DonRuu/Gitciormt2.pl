@@ -3,56 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Oficjalna strona serwera Metin2">
-    <title>Serwer Metin2 - Galeria</title>
+    <meta name="description" content="Serwer Metin2 - Dołącz do nas i przeżyj epicką przygodę!">
+    <title>Metin2 - Twój Serwer</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Nagłówek -->
     <header>
-        <div class="5b69e5c4cc312_tlaladowania1.png.e0253abde0a66e70185941a4617ba303.png">
-            <h1>[Twoja nazwa serwera]</h1>
+        <div class="container">
+            <h1>Metin2 - Twój Serwer</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">O serwerze</a></li>
+                    <li><a href="#news">Aktualności</a></li>
+                    <li><a href="#rankings">Rankingi</a></li>
+                    <li><a href="#download">Pobierz</a></li>
+                    <li><a href="#register">Zarejestruj się</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul class="menu">
-                <li><a href="#home">Główna Strona</a></li>
-                <li><a href="#about">Opis Serwera</a></li>
-                <li><a href="#ranking">Ranking Graczy</a></li>
-                <li><a href="#register">Rejestracja</a></li>
-                <li><a href="#download">Pobierz Klienta Gry</a></li>
-                <li><a href="#gallery">Galeria</a></li>
-                <li><a href="#contact">Kontakt</a></li>
-            </ul>
-        </nav>
     </header>
 
-    <!-- Galeria -->
-    <section id="gallery">
-        <h2>Galeria Grafik</h2>
-        <div class="gallery-container">
-            <!-- Wklej swoje obrazy w poniższe elementy -->
-            <div class="gallery-item">
-                <img src="grafiki/grafika1.jpg" alt="Grafika 1">
-            </div>
-            <div class="gallery-item">
-                <img src="grafiki/grafika2.jpg" alt="Grafika 2">
-            </div>
-            <div class="gallery-item">
-                <img src="grafiki/grafika3.jpg" alt="Grafika 3">
-            </div>
-            <div class="gallery-item">
-                <img src="grafiki/grafika4.jpg" alt="Grafika 4">
-            </div>
-            <div class="gallery-item">
-                <img src="grafiki/grafika5.jpg" alt="Grafika 5">
-            </div>
-            <!-- Dodaj więcej obrazów tutaj -->
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Dołącz do epickiej przygody w świecie Metin2!</h2>
+            <a href="#register" class="btn">Zarejestruj się</a>
         </div>
     </section>
 
-    <!-- Stopka -->
+    <section id="about">
+        <div class="container">
+            <h2>O serwerze</h2>
+            <p>Serwer Metin2 oferuje niezapomniane przygody, epickie bitwy i rozwój postaci. Stań się legendą i walcz z innymi graczami w dynamicznym świecie pełnym wyzwań!</p>
+        </div>
+    </section>
+
+    <section id="news">
+        <div class="container">
+            <h2>Aktualności</h2>
+            <ul>
+                <li><strong>10.10.2024</strong> - Nowy event Halloweenowy!</li>
+                <li><strong>01.10.2024</strong> - Aktualizacja serwera z nowymi misjami.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="rankings">
+        <div class="container">
+            <h2>Rankingi</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Gracz</th>
+                        <th>Poziom</th>
+                        <th>Punkty</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Gracz1</td>
+                        <td>99</td>
+                        <td>50000</td>
+                    </tr>
+                    <tr>
+                        <td>Gracz2</td>
+                        <td>95</td>
+                        <td>45000</td>
+                    </tr>
+                    <!-- Dodaj więcej graczy -->
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="download">
+        <div class="container">
+            <h2>Pobierz grę</h2>
+            <a href="#" class="btn">Pobierz klienta</a>
+        </div>
+    </section>
+
+    <section id="register">
+        <div class="container">
+            <h2>Zarejestruj się</h2>
+            <a href="#" class="btn">Zarejestruj nowe konto</a>
+        </div>
+    </section>
+
     <footer>
-        <p>&copy; 2024 [Twoja nazwa serwera]. Wszelkie prawa zastrzeżone.</p>
+        <div class="container">
+            <p>© 2024 Metin2 - Twój Serwer. Wszelkie prawa zastrzeżone.</p>
+        </div>
     </footer>
 </body>
 </html>
